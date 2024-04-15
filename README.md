@@ -65,3 +65,5 @@ Todos los archivos se encuentran ubicados en la carpeta `Parcial`. Aquí encontr
 4º Nos aseguramos que todas las variables estén marcadas en la sección de Propiedades en cada documento importado.
 
 5º Le damos al botón que dice 'Aplicar' y debería graficarnos la siguiente viga: 
+
+![Gráfica](https://raw.githubusercontent.com/lauralardies/parcial2_ia/main/Parcial/grafica.png)

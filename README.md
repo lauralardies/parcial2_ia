@@ -2,6 +2,8 @@
 
 #### Este es el link del [repositorio](https://github.com/lauralardies/parcial2_ia).
 
+## Enunciado 
+
 En el umbral de una nueva era de ingeniería digital, la Universidad Alfonso X "El Sabio" se enorgullece de presentar un desafío intelectual único en el campo de la Inteligencia Artificial aplicada al Método de Elementos Finitos (MEF) 3D. 
 
 Este examen no solo evaluará su comprensión técnica de los principios fundamentales del MEF y la programación en Python, sino que también pondrá a prueba su capacidad para integrar estos conocimientos en soluciones creativas y eficientes para problemas estructurales complejos. 
@@ -49,3 +51,17 @@ Desarrolle un solver para el sistema de ecuaciones resultante del método de ele
 - Caso de Estudio
 
   *Aplique todo el flujo de trabajo en un caso de estudio estructural proporcionado. Discuta los resultados y cómo las decisiones tomadas en cada etapa afectaron el resultado final.*
+
+## Ejecución
+
+Todos los archivos se encuentran ubicados en la carpeta `Parcial`. Aquí encontramos un `requirements.txt` que nos indica las librerías que se necesitan instalar para ejecutar correctamente nuestro código. También encontramos una carpeta llamada `FEM`, donde se desarrolla todo el código. ¿Qué documentos hay que ejecutar y qué se hace con los resultados obtenidos?
+
+1º Ejecutamos el documento `0_main_mesh_nodes.py` que genera algunos archivos que necesitamos para el documento del segundo paso.
+
+2º Ejecutamos el documento `0_main_fem.py` que genera una serie de documentos `.vtu`.
+
+3º Abrimos la aplicación ParaView en nuestro dispositivo e importamos todos los archivos con extensión `.vtu` que se han generado en los pasos 1 y 2.
+
+4º Nos aseguramos que todas las variables estén marcadas en la sección de Propiedades en cada documento importado.
+
+5º Le damos al botón que dice 'Aplicar' y debería graficarnos la siguiente viga: 

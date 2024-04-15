@@ -1,6 +1,6 @@
 # Parcial IA
 
-Este es el link del [repositorio](https://github.com/lauralardies/parcial2_ia).
+#### Este es el link del [repositorio](https://github.com/lauralardies/parcial2_ia).
 
 En el umbral de una nueva era de ingeniería digital, la Universidad Alfonso X "El Sabio" se enorgullece de presentar un desafío intelectual único en el campo de la Inteligencia Artificial aplicada al Método de Elementos Finitos (MEF) 3D. 
 
@@ -10,7 +10,7 @@ A través de este examen, se espera que los estudiantes demuestren no solo su ha
 
 > **Instrucciones**: Resuelva los siguientes problemas utilizando Python. Asegúrese de documentar su código adecuadamente y de seguir los estándares de codificación discutidos en clase. Es fundamental que su código sea legible y esté bien organizado.
 
-**Tiempo**: 2 horas
+> **Tiempo**: 2 horas
 
 ### Parte I: Fundamentos de Elementos Finitos
 

@@ -1,11 +1,31 @@
 # Importamos bibliotecas
 import pandas as pd
 
-# Generamos un dataframe de pandas con los datos de un análisis estructural
-df = pd.DataFrame({'x': [0, 1], 'y': [0, 1], 'z': [0, 1], 'presion': [100, 150]})
+def generar_y_exportar_csv(x, y, z, presion, nombre_archivo):
+    """
+    Genera un DataFrame de Pandas con los datos proporcionados y lo exporta a un archivo CSV.
 
-# Exportamos el dataframe a un archivo CSV
-df.to_csv('output.csv', index=False)
+    Parámetros:
+        x (list): Lista de coordenadas x.
+        y (list): Lista de coordenadas y.
+        z (list): Lista de coordenadas z.
+        presion (list): Lista de valores de presión.
+        nombre_archivo (str): El nombre del archivo CSV de salida.
+    """
+
+    # Generamos un DataFrame de Pandas con los datos proporcionados
+    df = pd.DataFrame({'x': x, 'y': y, 'z': z, 'presion': presion})
+
+    # Exportamos el DataFrame a un archivo CSV
+    df.to_csv(nombre_archivo, index=False)
+
+# Ejemplo de uso
+x = [0, 1]
+y = [0, 1]
+z = [0, 1]
+presion = [100, 150]
+nombre_archivo = 'output.csv'
+generar_y_exportar_csv(x, y, z, presion, nombre_archivo)
 
 '''
 ¿Cómo visualizar estos resultados en Paraview?

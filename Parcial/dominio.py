@@ -13,6 +13,7 @@ def creacion_dominio(x, y, z):
     Devuelve:
         dominio (ndarray): Arreglo tridimensional de ceros con las dimensiones especificadas.
     """
+    
     # Crea un arreglo tridimensional de ceros con las dimensiones especificadas
     dominio = np.zeros((x, y, z))
 

@@ -2,7 +2,7 @@ import random
 import math
 import sys
 import shutil
-from print_paraview import print_paraview
+from print_paraview2 import print_paraview
 
 '''
 PARAMETERS
